@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.it.alg.JustifyTextView
+        android:id="@+id/tv"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_margin="80dp"
+        android:text="关于（无限）流量的相关声明：\n&#8194;&#8194;&#8194;&#8194;为了保障每一位用户的全国4G高速使用体验和网络公平使用权，本流量及设备必须在实名注册、车机捆绑的前提下，具备中国电信4G网络稳定覆盖区域内进行使用！由于非实名、非合法车机捆绑、拆卡等原因造成的无法使用等后果均由使用人及购买人自行承担。为了防治恶意使用、避免浪费，用户当月全部国内数据总流量达到15G后将关闭数据上网功能，次月恢复！"
+        android:textSize="16sp" />
+</LinearLayout>
+
